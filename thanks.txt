@@ -9,6 +9,9 @@ Thanks go to the following for their correspondance:
 	Ken Holman <gkholman@cranesoftwrights.com>
 
 =====================================================================
+Credits....
+=====================================================================
+
 
 Subject: Re: Indexing Tree Elements
 Date: Fri, 07 Jul 2000 09:16:55 -0400
@@ -115,7 +118,7 @@ Received: from bigfoot.com (bflitemail6.bigfoot.com [208.156.39.206])
 Received: from web1-1.ability.net ([216.32.69.6])
         by BFLITEMAIL5.bigfoot.com (LiteMail v2.43(BFLITEMAIL5)) with SMTP id 05Jul2000_BFLITEMAIL5_26813_58833129;
         Wed, 05 Jul 2000 21:48:38 -0400 EST
-Received: from mulberrytech.com 
+Received: from mulberrytech.com
         by web1-1.ability.net (8.9.3/8.9.1) with ESMTP id VAA12560      Wed, 5 Jul 2000 21:46:36 -0400 (EDT)
 Received: (from majordom@localhost)
         by mulberrytech.com (8.8.5/8.8.5) id VAA12558
@@ -124,7 +127,7 @@ Message-ID: <1E18203C3402B84882243054A7E7DC9307E546@red-pt-02.redmond.corp.micro
 From: Joshua Allen <joshuaa@microsoft.com>
 To: "'xsl-list@mulberrytech.com'" <xsl-list@mulberrytech.com>
 Subject: RE: Schema Element Definiton Order
-Date: Wed, 5 Jul 2000 18:15:01 -0700 
+Date: Wed, 5 Jul 2000 18:15:01 -0700
 X-Mailer: Internet Mail Service (5.5.2651.58)
 Sender: owner-xsl-list@mulberrytech.com
 Precedence: bulk
@@ -150,27 +153,27 @@ will convert older stylesheets to the new XSLT format.
 > Sent: Wednesday, July 05, 2000 5:57 AM
 > To: xsl-list@mulberrytech.com
 > Subject: Re: Schema Element Definiton Order
-> 
-> 
-> 
+>
+>
+>
 > > But aren't XML schema's XSL elements?
-> 
+>
 > No, they are XML elements, XSL is the stylesheet and transformation
 > language for XML.
 > the DLL used by default in internet explorer 5 (msxml) does include
 > an XML parser, an XDR (XDR=Microsoft flavoured XML schema) validator,
-> and an XSL system (or at least Microsoft implementation of an 
+> and an XSL system (or at least Microsoft implementation of an
 > early XSLT
 > draft). But these are all essentially different functionalities and
 > languages even though they are packaged up in one library in that
 > implementation.
-> 
-> 
+>
+>
 > David
-> 
-> 
+>
+>
 >  XSL-List info and archive:  http://www.mulberrytech.com/xsl/xsl-list
-> 
+>
 
 
  XSL-List info and archive:  http://www.mulberrytech.com/xsl/xsl-list
@@ -181,15 +184,15 @@ will convert older stylesheets to the new XSLT format.
 =====================================================================
 
 
-Subject: 
+Subject:
         Re: DATR/XML
-   Date: 
+   Date:
         Tue, 4 Jul 2000 23:26:22 +0100
-   From: 
+   From:
         Roger.Evans@itri.brighton.ac.uk
-     To: 
+     To:
         lee.goddard@bigfoot.com
-    CC: 
+    CC:
         geraldg@cogs.susx.ac.uk, Adam.Kilgarriff@itri.brighton.ac.uk, Roger.Evans@itri.brighton.ac.uk
 
 
@@ -220,15 +223,15 @@ Roger
 ======================================================================
 
 
-Subject: 
+Subject:
             Re: XML into Prolog
-       Date: 
+       Date:
             Tue, 04 Jul 2000 09:50:17 +0100
-      From: 
+      From:
             Francis Norton <francis@redrice.com>
-        To: 
+        To:
             Lee Goddard <lee.goddard@bigfoot.com>
- References: 
+ References:
             1 , 2
 
 
@@ -259,7 +262,7 @@ SGML/XML -> DATR at the University of Brighton
 - are they neighbours?
 
 Lee Goddard wrote:
-> 
+>
 > Francis Norton wrote:
 > >
 > > Hi Lee,
@@ -273,20 +276,20 @@ Lee Goddard wrote:
 > > Francis Norton.
 > >
 > > Defy Convention? Deify Convention!
-> 
+>
 > Hey, that's both useful and frustrating!  Thanks very much, really!
 > I'm actually taking something called DATR into XML into PROLOG, so
 > maybe there's still something for me to do.
-> 
+>
 > Thanks again,
 > lee
-> 
+>
 > --
 > Lee Goddard  <l.goddard@sussex>
 > Research Centre for Cognitive Science,
 > University of Sussex, Brighton UK
 
--- 
+--
 Francis Norton.
 
 Defy Convention? Deify Convention!

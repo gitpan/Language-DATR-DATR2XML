@@ -10,17 +10,20 @@ README File For Convert::DATR2XML.pm
 The DATR2XML package is a colleciton of files
 to provide XML support for Sussex-standard DATR.
 
+Verison 0.81 was created by h2xs 1.20 with options
+		-cfn Language::DATR::DATR2XML
+and is now strict, at the expense of some limited
+functionality for which I've forgotten the point.
+
 INSTALLATION
 ------------
-perl Makefile.PL
-make
-make test
-make install
+Could make a makefile, I guess, but you're better off
+just sticking the PM into $perl/site/lib/convert/,
+and the other files where you fancy.
 
 MANIFEST
 --------
-You should recieve the following files in various directories
-within this package:
+You should recieve the following files in the package:
 
 	*	DATR2XML.pm
 		The Perl module to convert a basic set of
@@ -48,6 +51,10 @@ within this package:
 		An experimental XSLT stylesheet intended to render
 		DATR structures in PROLOG.  Hm.
 
+	*	test.pl
+		A bunch of commands commented out, and a call
+		to the Benchmark routines.
+
 	*	COPYING
 		Yes you can, but please read this first for terms.
 
@@ -58,8 +65,6 @@ within this package:
 	*	README.txt
 		You know about this one already.
 
-	*	MANIFEST, Makefile.PL, test.pl
-		Perl installation files.
 
 COPYING
 -------
@@ -68,20 +73,17 @@ Please see the included file, COPYING.
 MORE INFO
 ---------
 For more info, extract the POD from the PM:
-	%>perldoc DATR2XML.pm
+	perldoc DATR2XML.pm
 or
-	%>pod2html --title DATR2XML DATR2XML.pm
+	pod2html --title DATR2XML DATR2XML.pm
 
 None of this wouldn't have happend without the
 help of Prof Dr Gerald Gazdar of the
 Research Centre for Cognitive Science at the
-University of Sussex; check his work out at
-at <http://www.cogs.sussex.ac.uk>.
+University of Sussex: <http://www.cogs.sussex.ac.uk>.
 
 AUTHOR
 ------
-Lee Goddard             mailto:lgoddard@cpan.org
-Hove, East Sussex, UK   http://www.leegoddard.com/DATR
-02 November 2000
-
-London, May 2001
+Lee Goddard             mailto:mail@leegoddard.com
+Sussex/London, UK       http://www.leegoddard.com/DATR
+02 November 2000 - 20 April 2001
