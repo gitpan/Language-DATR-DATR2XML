@@ -7,7 +7,7 @@ use warnings;
 # Copyright:	Copyright (C) Lee Goddard; GNU GPL: please see end of file.
 # Filename:		DATR2XML.pm
 
-our $VERSION	= "0.811";			# Updated dist
+our $VERSION	= "0.901";			# Updated dist
 our $MOD_NAME	= "DATR2XML.pm ";	# Name of this module
 
 
