@@ -10,20 +10,17 @@ README File For Convert::DATR2XML.pm
 The DATR2XML package is a colleciton of files
 to provide XML support for Sussex-standard DATR.
 
-Verison 0.81 was created by h2xs 1.20 with options
-		-cfn Language::DATR::DATR2XML
-and is now strict, at the expense of some limited
-functionality for which I've forgotten the point.
-
 INSTALLATION
 ------------
-Could make a makefile, I guess, but you're better off
-just sticking the PM into $perl/site/lib/convert/,
-and the other files where you fancy.
+perl Makefile.PL
+make
+make test
+make install
 
 MANIFEST
 --------
-You should recieve the following files in the package:
+You should recieve the following files in various directories
+within this package:
 
 	*	DATR2XML.pm
 		The Perl module to convert a basic set of
@@ -51,10 +48,6 @@ You should recieve the following files in the package:
 		An experimental XSLT stylesheet intended to render
 		DATR structures in PROLOG.  Hm.
 
-	*	test.pl
-		A bunch of commands commented out, and a call
-		to the Benchmark routines.
-
 	*	COPYING
 		Yes you can, but please read this first for terms.
 
@@ -65,6 +58,8 @@ You should recieve the following files in the package:
 	*	README.txt
 		You know about this one already.
 
+	*	MANIFEST, Makefile.PL, test.pl
+		Perl installation files.
 
 COPYING
 -------
@@ -85,6 +80,8 @@ at <http://www.cogs.sussex.ac.uk>.
 
 AUTHOR
 ------
-Lee Goddard             mailto:mail@leegoddard.com
-London, UK   http://www.leegoddard.com/DATR
-02 November 2000 - 20 April 2001
+Lee Goddard             mailto:lgoddard@cpan.org
+Hove, East Sussex, UK   http://www.leegoddard.com/DATR
+02 November 2000
+
+London, May 2001
