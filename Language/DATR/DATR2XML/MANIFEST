@@ -1,0 +1,12 @@
+COPYTING
+Changes
+DATR1.0.dtd
+DATR2XML.pm
+MANIFEST
+Makefile.PL
+README.txt
+datr.xml
+datr.xsl
+datrHTML.xsl
+prolog.xsl
+test.pl
